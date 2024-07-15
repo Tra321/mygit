@@ -2,22 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--    网页适配-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 网页适配 -->
     <title>Border-radius Previewer</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 
 <body>
-    <div class="container"><!-- 外框 -->
-        <div class="box"><!-- 预览框 -->
-            <div class="in-box"><!-- 内框 -->
-                <div class="shape"></div><!-- 形状 -->
+    <div class="container">
+        <header class="header">
+            <h1>8 Point full control</h1>
+        </header>
+        <div class="generator" id="box">
+            <div class="generator__shape generator__shape--8v" id="shape"></div>
+            <span class="generator__handle generator__handle--8v generator__handle--second" id="leftBottom"></span>
+            <span class="generator__handle generator__handle--8v generator__handle--third" id="topRight"></span>
+            <span class="generator__handle generator__handle--8v generator__handle--fourth" id="rightBottom"></span>
+            <span class="generator__handle generator__handle--8v generator__handle--fourth" id="bottomRight"></span>
+            <span class="generator__handle generator__handle--8v" id="left"></span>
+            <span class="generator__handle generator__handle--8v" id="top"></span>
+            <span class="generator__handle generator__handle--8v generator__handle--third" id="right"></span>
+            <span class="generator__handle generator__handle--8v generator__handle--second" id="bottom"></span>
+        </div>
+        <div>
+            <div class="output">
+                <div class="output__label">border-radius:</div>
+                <div class="input-group">
+                    <span type="text" class="output__code" id="code">10% 10% 10% 10% / 10% 10% 10% 10%
+                    </span>
+                    <button class="output__button" id="copy">copy</button>
+                </div>
             </div>
         </div>
     </div>
-    <label for="border-radius"> Border-radius: </label>
-    <output id="border-radius"></output>
-    <button onclick="changeBorderRadius()" id="copy-btn">Copy</button>
 </body>
 </html>
