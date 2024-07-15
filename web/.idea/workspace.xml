@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bf7c648-f88e-4bb1-9722-0fef49d7a21d" name="更改" comment="web_lab_01">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/Border-radius Previewer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/Border-radius Previewer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/Border-radius Previewer/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/Border-radius Previewer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/Border-radius Previewer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/css01.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/vertical scroll.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/html01.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/vertical scroll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/js01.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/vertical scroll.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720870239714</updated>
       <workItem from="1720870240796" duration="13868000" />
-      <workItem from="1720955748259" duration="27757000" />
+      <workItem from="1720955748259" duration="28547000" />
     </task>
     <servers />
   </component>
