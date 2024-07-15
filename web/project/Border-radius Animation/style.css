@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;/*可以使得布局更加直观和易于控制*/
+}
+body {
+    background: #003;
+}
+
+.container {/*外框*/
+    height: 100vh;/* 设置容器的高度为视口高度的100%，即浏览器窗口的高度 */
+    display: flex;/* 使容器成为flex布局 */
+    align-items: center;/* 垂直居中 */
+    justify-content: center;/* 水平居中 */
+    overflow: hidden;/* 当内容超出容器边界时，隐藏超出部分，不显示滚动条或溢出 */
+}
+
+.box {/*预览框*/
+    width: 60vmin;/* 设置盒子的宽度为浏览器窗口的宽度的60% */
+    height: 60vmin;/* 设置盒子的高度为浏览器窗口的宽度的60% */
+    border: 1px dashed rgba(255,255,255,0.4);/* 边框为1px的白色40%透明度的虚线 */
+    position: relative;
+
+    &::before {/* 伪元素在不改变html的情况下，添加额外的元素 */
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;/*设置为圆形*/
+        border: 1px dashed rgba(255,255,255,0.4);
+        transform: scale(1.42);/*放大42%*/
+    }
+}
+
+.spin-container {/* 旋转的容器 */
+    width: 100%;
+    height: 100%;
+    animation: spin 12s ease-in-out infinite alternate;/* 旋转动画 */
+    /*  动画名称 12秒 慢快慢 无限次 交替  */
+    position: relative;
+}
+
+.shape {
+    width: 100%;
+    height: 100%;
+    transition: border-radius 1s ease-out;/* 边框圆角变化的过渡动画 */
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;/* 设置边框圆角 */
+    animation: morph 8s ease-in-out infinite both alternate;
+    /* 动画名称 8秒 慢快慢 无限次 交替 */
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;/* 层级 */
+}
+
+.bd {
+    width: 142%;
+    height: 142%;
+    position: absolute;
+    left: -21%;
+    top: -21%;
+    background: url(https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=2868fd5c3f30697d38732224e0ef51ed);
+    background-size: 100%;
+    background-position: center center;/* 背景居中 */
+    display: flex;
+    color: #003;
+    font-size: 5vw;/* 字体大小为浏览器窗口宽度的5% */
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    animation: spin 12s ease-in-out infinite alternate-reverse;
+    /* 动画名称 12秒 慢快慢 无限次 交替反向 */
+    opacity: 1;/* 初始不透明 */
+    z-index: 2;
+}
+
+@keyframes morph {
+    0% {border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;}
+    100% {border-radius: 40% 60%;}
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2bf7c648-f88e-4bb1-9722-0fef49d7a21d" name="更改" comment="web_lab_01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Bin2Dec/calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/Bin2Dec/calculator.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -38,7 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript 调试.ai.html.executor": "Run",
+    "JavaScript 调试.ai.html.executor": "Debug",
     "JavaScript 调试.html01.html.executor": "Run",
     "JavaScript 调试.index.html.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -64,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720870239714</updated>
       <workItem from="1720870240796" duration="13868000" />
-      <workItem from="1720955748259" duration="8942000" />
+      <workItem from="1720955748259" duration="20892000" />
     </task>
     <servers />
   </component>

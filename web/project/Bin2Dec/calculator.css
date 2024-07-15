@@ -1,29 +1,29 @@
 body {
-    font-family: Arial, sans-serif;<!--字体   -->
-    margin: 0;
-    padding: 20px;
-    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;/*如果不支持Arial，则使用sans-serif*/
+    margin: 0;/*边距*/
+    padding: 20px;/*内边距*/
+    background-color: #f7f7f7;/*背景色*/
 }
 
 .calculator {
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;/*圆角*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);/*阴影*/
     padding: 25px;
-    max-width: 300px;
-    margin: auto;
+    max-width: 300px;/*最大宽度*/
+    margin: auto;/*居中*/
 }
 
 .calculator label {
-    display: block;
-    margin-bottom: 20px;
-    font-weight: bold;
+    display: block;/*块级元素*/
+    margin-bottom: 20px;/*下边距*/
+    font-weight: bold;/*加粗*/
 }
 .calculator input[type="text"] {
     width: 93.5%;
     padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
+    margin-bottom: 10px;/*下边距*/
+    border: 1px solid #ddd;/*边框*/
     border-radius: 4px;
 }
 
@@ -34,7 +34,7 @@ body {
     color: white;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer;/*鼠标指针*/
 }
 
 .calculator button:hover {
