@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bf7c648-f88e-4bb1-9722-0fef49d7a21d" name="更改" comment="web_lab_01">
-      <change beforePath="$PROJECT_DIR$/lab01/css01.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/vertical scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/html01.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/vertical scroll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/js01.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/vertical scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Border-radius Previewer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/Border-radius Previewer/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
+        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -42,7 +43,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript 调试.ai.html.executor": "Debug",
     "JavaScript 调试.html01.html.executor": "Run",
-    "JavaScript 调试.index.html.executor": "Run",
+    "JavaScript 调试.index.html.executor": "Debug",
     "JavaScript 调试.test.html.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,12 +68,17 @@
       <option name="presentableId" value="Default" />
       <updated>1720870239714</updated>
       <workItem from="1720870240796" duration="13868000" />
-      <workItem from="1720955748259" duration="28547000" />
+      <workItem from="1720955748259" duration="32140000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/project/Calculator/script.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
