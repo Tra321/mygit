@@ -1,7 +1,3 @@
-# 这是我的第一行python代码
-say_hi = "Hello World"
-print("你的第一行代码：", say_hi)
-
 # 基础功能、循环、数据、判断
 
 # 变化的量
