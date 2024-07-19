@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bf7c648-f88e-4bb1-9722-0fef49d7a21d" name="更改" comment="web_lab_01">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2bf7c648-f88e-4bb1-9722-0fef49d7a21d" name="更改" comment="web_lab_01" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +13,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="SCSS File" />
         <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -42,12 +41,13 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript 调试.ai.html.executor": "Debug",
     "JavaScript 调试.html01.html.executor": "Run",
-    "JavaScript 调试.index.html.executor": "Debug",
+    "JavaScript 调试.index.html.executor": "Run",
     "JavaScript 调试.test.html.executor": "Debug",
+    "JavaScript 调试.vertical scroll.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Hub/新建文件夹/Web/myweb/lab08/lab8_1.html",
+    "last_opened_file_path": "D:/Hub/Git/mygit/web",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,6 +68,10 @@
       <updated>1720870239714</updated>
       <workItem from="1720870240796" duration="13868000" />
       <workItem from="1720955748259" duration="32475000" />
+      <workItem from="1721303922499" duration="1965000" />
+      <workItem from="1721375002354" duration="1526000" />
+      <workItem from="1721388167707" duration="438000" />
+      <workItem from="1721401214969" duration="119000" />
     </task>
     <servers />
   </component>

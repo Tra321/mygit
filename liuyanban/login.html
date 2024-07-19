@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <h2>账号登陆</h2>
+    <form>
+        <div>
+            <label>用户名：</label>
+            <input type="text" id="username" name="username" value="username">
+        </div>
+        <div>
+            <label>密码：</label>
+            <input type="password" id="password" name="password" value="password">
+        </div>
+        <div>
+        <button type="button" id="btn">登录</button>
+        </div>
+    </form>
+    <script src="jQuery.js"></script>
+    <script>
+        //获取元素
+        var btn = document.getElementById("btn");
+        var usernameInput = document.getElementById("username");
+        var passwordInput = document.getElementById("password");
+
+        //添加点击事件
+        btn.onclick = function() {
+            //获取用户输入的用户名和密码
+            var username = usernameInput.value;
+            var password = passwordInput.value;
+
+            $.post("./login.php", {username: username,password: password},function(date) {
+                alert(date.date);
+                if (date.error === 0) {
+                    //登录成功
+                    location.href= './list.php'
+                }
+            },"json")
+        }
+    </script>
+</body>
+</html>
