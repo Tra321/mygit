@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的留言板</title>
+    <script src="jQuery.js"></script>
+</head>
+
+<body>
+    <h1><a href="./index.html">我的留言板</a></h1>
+
+    <h2>写留言</h2>
+    <form id="messageForm">
+        <textarea name="t" id="t" cols="30" rows="10" placeholder="说点什么..."></textarea>
+        <p><input name="n" id="n" type="text" placeholder="你的名字"></p>
+        <p><button type="button" id="btn">发表</button></p>
+    </form>
+    <button id="manageButton"><a href="./login.html">管理</a></button>
+
+    <hr>
+
+    <h2>留言列表</h2>
+    <ul id="messagesList">
+        <!-- 留言将在这里显示 -->
+    </ul>
+
+    <script>
+        $(document).ready(function() {
+            // 加载留言列表
+            loadMessages();
+
+            // 获取按钮、留言输入框和姓名输入框的 jQuery 对象
+            var btn = $('#btn');
+            var tInput = $('#t');
+            var nInput = $('#n');
+
+            // 绑定点击事件到按钮
+            btn.click(function() {
+                // 获取留言和姓名
+                var t = tInput.val();
+                var n = nInput.val();
+
+                // 使用 Ajax 发送 POST 请求来存储留言
+                $.ajax({
+                    type: 'POST',
+                    url: 'add.php', // 服务器端保存留言的脚本
+                    data: { t: t, n: n }, // 发送到服务器的数据
+                    dataType: 'json', // 期望从服务器接收的数据类型
+                    success: function(response) {
+                        if (response.success) {
+                            // 留言成功后，清空表单并加载新的留言列表
+                            $('#messageForm')[0].reset();
+                            loadMessages();
+                        } else {
+                            alert('留言失败：' + response.message);
+                        }
+                    },
+                    error: function() {
+                        alert('留言请求失败，请稍后重试！');
+                    }
+                });
+            });
+        });
+
+        // 从服务器加载留言列表
+        function loadMessages() {
+            $.ajax({
+                url: 'fetch.php', // 服务器端返回留言列表的脚本
+                type: 'GET',
+                success: function(data) {
+                    // 将返回的 HTML 插入到留言列表容器中
+                    $('#messagesList').html(data);
+                },
+                error: function() {
+                    $('#messagesList').html('无法加载留言列表，请稍后重试！');
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

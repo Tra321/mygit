@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+</head>
+
+<body>
+    <h1><a href="./index.html">我的留言板</a></h1>
+
+    <h2>账号登陆</h2>
+    <form>
+        <div>
+            <label>用户名：</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label>密码：</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+        <button type="button" id="btn">登录</button>
+        </div>
+    </form>
+    <script>
+        $(document).ready(function() {
+            // 获取按钮、用户名输入框和密码输入框的 jQuery 对象
+            var btn = $('#btn');
+            var usernameInput = $('#username');
+            var passwordInput = $('#password');
+
+            // 绑定点击事件到按钮
+            btn.click(function() {
+                // 获取用户输入的用户名和密码
+                var username = usernameInput.val();
+                var password = passwordInput.val();
+
+                // 使用 Ajax 发送 POST 请求
+                $.ajax({
+                    type: 'POST',
+                    url: 'login.php', // 服务器端处理登录的 PHP 脚本
+                    data: { username: username, password: password },
+                    dataType: 'json',
+                    success: function(response) {
+                        // 根据服务器返回的响应处理登录结果
+                        if (response.error === 0) {
+                            alert(response.date); // 显示登录成功的消息
+                            location.href = 'list.html'; // 登录成功后跳转到首页
+                        } else {
+                            alert(response.date); // 显示登录失败的消息
+                        }
+                    },
+                    error: function() {
+                        alert('登录请求失败，请稍后重试！');
+                        }
+                    });
+                });
+            });
+    </script>
+</body>
+</html>

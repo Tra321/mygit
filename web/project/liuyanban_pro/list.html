@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板</title>
+    
+    <script src="jQuery.js"></script>
+</head>
+
+<body>
+    <h1><a href="./index.html">我的留言板</a></h1>
+
+    <h2>留言列表</h2>
+    <ul id="messagesList">
+       
+    </ul>
+
+    <script>
+            loadMessages();
+        // 从服务器加载留言列表
+        function loadMessages() {
+            $.ajax({
+                url: 'fetchlist.php', // 服务器端返回留言列表的脚本
+                type: 'GET',
+                success: function(data) {
+                    // 将返回的 HTML 插入到留言列表容器中
+                    $('#messagesList').html(data);
+                },
+                error: function() {
+                    $('#messagesList').html('无法加载留言列表，请稍后重试！');
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
