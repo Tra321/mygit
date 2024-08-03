@@ -1,102 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bf7c648-f88e-4bb1-9722-0fef49d7a21d" name="更改" comment="web_lab_01" />
+    <list default="true" id="f92e2abf-b7dc-495d-8ad5-6a60e7851004" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/.idea/code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/00.终端使用.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/01.使用readFile方法读取文件内容.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/02.判断文件是否读取成功.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/03.使用writeFile方法写入文件内容.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/04.整理成绩.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/05.演示路径的问题.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/06.path.join方法的使用.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/07.path.basename方法的使用.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/08.path.extname方法的使用.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/09.案例.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/10.创建基本的web服务器.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/11.了解req请求对象.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/12.解决中文乱码的问题.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/13.案例web服务器.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/14.m1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/15.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/16.模块作用域.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/17.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/18.演示module对象.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/19.自定义模块.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/20.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/21.exports对象.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/22.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/23.dateFormat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/24.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/25.使用moment对是时间进行格式化.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/files/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/files/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/files/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/files/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/files/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/files/indexnew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/files/成绩-ok.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/files/成绩.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js-learn/code/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/img/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/lab01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/lab02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/v-bind.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/图片切换.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/图片切换.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/计数器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/记事本.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/记事本.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/vertical scroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Bin2Dec/Bin2Dec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Bin2Dec/calculator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Bin2Dec/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Border-radius Animation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Border-radius Animation/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Border-radius Previewer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Border-radius Previewer/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Border-radius Previewer/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Calculator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Calculator/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Calculator/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/conn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/del.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/fetch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/fetchlist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/jQuery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/liuyanban_pro/updata.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="SCSS File" />
-        <option value="CSS File" />
-        <option value="TypeScript File" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2jBpHpJu5BBw3tvUahpXHGn6a9t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2k09259D2g9fhNlHAkL2q7BoqEj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript 调试.ai.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript 调试.html01.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript 调试.index.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript 调试.test.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript 调试.vertical scroll.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Hub/Git/mygit/web&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Hub/Git/mygit/vue/vue-learn/音乐播放器",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="2bf7c648-f88e-4bb1-9722-0fef49d7a21d" name="更改" comment="" />
-      <created>1720870239714</created>
+      <changelist id="f92e2abf-b7dc-495d-8ad5-6a60e7851004" name="更改" comment="" />
+      <created>1722409419085</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1720870239714</updated>
-      <workItem from="1720870240796" duration="13868000" />
-      <workItem from="1720955748259" duration="32475000" />
-      <workItem from="1721303922499" duration="1965000" />
-      <workItem from="1721375002354" duration="1526000" />
-      <workItem from="1721388167707" duration="438000" />
-      <workItem from="1721401214969" duration="720000" />
-      <workItem from="1721489411751" duration="662000" />
-      <workItem from="1721558092479" duration="879000" />
-      <workItem from="1721571698180" duration="1678000" />
-      <workItem from="1721897828235" duration="143000" />
+      <updated>1722409419085</updated>
+      <workItem from="1722409421444" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
