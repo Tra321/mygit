@@ -1,6 +1,6 @@
 <template>
     <el-row>
-        <el-col :span="8">
+        <el-col :span="8" style="padding-right: 10px">
                 <el-card class="box-card">
                     <div class="user">
                         <img src="../assets/images/user.jpg" alt="">                   
@@ -38,7 +38,7 @@
                     </el-table>
                 </el-card>
         </el-col>
-        <el-col :span="16">
+        <el-col :span="16" style="padding-left: 10px">
             <div class="num">
                 <el-card v-for="item in countData" :key="item.name" :body-style="{ display: 'flex', padding: 0 }">
                     <i class="icon" :class="`el-icon-${item.icon}`" :style="{ background: item.color }"></i>
@@ -48,51 +48,22 @@
                     </div>
                 </el-card>
             </div>
+            <el-card style="height: 280px;">
+                <!-- 折线图 -->
+            </el-card>
+            <div class="graph">
+                <el-card style="height: 260px;"></el-card>
+                <el-card style="height: 260px;"></el-card>
+            </div>
         </el-col>
     </el-row>
 </template>
 <script>
+import { getData } from '../api'
 export default {
     data() {
         return {
-            tableData: [
-                {
-                    name: 'oppo',
-                    todayBuy: 100,
-                    monthBuy: 300,
-                    totalBuy: 800
-                },
-                {
-                    name: 'vivo',
-                    todayBuy: 100,
-                    monthBuy: 300,
-                    totalBuy: 800
-                },
-                {
-                    name: '苹果',
-                    todayBuy: 100,
-                    monthBuy: 300,
-                    totalBuy: 800
-                },
-                {
-                    name: '小米',
-                    todayBuy: 100,
-                    monthBuy: 300,
-                    totalBuy: 800
-                },
-                {
-                    name: '三星',
-                    todayBuy: 100,
-                    monthBuy: 300,
-                    totalBuy: 800
-                },
-                {
-                    name: '魅族',
-                    todayBuy: 100,
-                    monthBuy: 300,
-                    totalBuy: 800
-                },
-            ],
+            tableData: [],
             tableLabel: {
                 name: '课程',
                 todayBuy: '今日购买',
@@ -138,6 +109,12 @@ export default {
                 },
             ]
         }
+    },
+    mounted() {
+        getData().then(({ data }) => {
+            const { tableData } = data.data
+            this.tableData = tableData
+        })
     }
 }
 </script>
@@ -208,5 +185,13 @@ export default {
         width: 32%;
         margin-bottom: 20px;
     }    
+}
+.graph {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .el-card{
+        width: 48%;
+    }
 }
 </style>
