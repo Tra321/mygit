@@ -14,6 +14,9 @@ importers:
       core-js:
         specifier: ^3.8.3
         version: 3.37.1
+      echarts:
+        specifier: 5.1.2
+        version: 5.1.2
       element-ui:
         specifier: ^2.15.14
         version: 2.15.14(vue@2.7.16)
@@ -1868,6 +1871,9 @@ packages:
     resolution: {integrity: sha512-wK2sCs4feiiJeFXn3zvY0p41mdU5VUgbgs1rNsc/y5ngFUijdWd+iIN8eoyuZHKB8xN6BL4PdWmzqFmxNg6V2w==}
     engines: {node: '>=6.0.0'}
 
+  echarts@5.1.2:
+    resolution: {integrity: sha512-okUhO4sw22vwZp+rTPNjd/bvTdpug4K4sHNHyrV8NdAncIX9/AarlolFqtJCAYKGFYhUBNjIWu1EznFrSWTFxg==}
+
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
@@ -3668,6 +3674,9 @@ packages:
   tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
 
+  tslib@2.0.3:
+    resolution: {integrity: sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==}
+
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
@@ -3970,6 +3979,9 @@ packages:
   yorkie@2.0.0:
     resolution: {integrity: sha512-jcKpkthap6x63MB4TxwCyuIGkV0oYP/YRyuQU5UO0Yz/E/ZAu+653/uov+phdmO54n6BcvFRyyt0RRrWdN2mpw==}
     engines: {node: '>=4'}
+
+  zrender@5.1.1:
+    resolution: {integrity: sha512-oeWlmUZPQdS9f5hK4pV21tHPqA3wgQ7CkKkw7l0CCBgWlJ/FP+lRgLFtUBW6yam4JX8y9CdHJo1o587VVrbcoQ==}
 
 snapshots:
 
@@ -6177,6 +6189,11 @@ snapshots:
 
   easy-stack@1.0.1: {}
 
+  echarts@5.1.2:
+    dependencies:
+      tslib: 2.0.3
+      zrender: 5.1.1
+
   ee-first@1.1.1: {}
 
   electron-to-chromium@1.5.4: {}
@@ -8008,6 +8025,8 @@ snapshots:
 
   tslib@1.14.1: {}
 
+  tslib@2.0.3: {}
+
   tslib@2.6.3: {}
 
   type-check@0.4.0:
@@ -8386,3 +8405,7 @@ snapshots:
       is-ci: 1.2.1
       normalize-path: 1.0.0
       strip-indent: 2.0.0
+
+  zrender@5.1.1:
+    dependencies:
+      tslib: 2.0.3
