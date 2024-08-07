@@ -49,39 +49,39 @@ export default {
                     },
                 ],
                 // 柱状图
-                useData: [
+                userData: [
                     {
-                        data: '周一',
+                        date: '周一',
                         new: 5,
                         active: 200
                     },
                     {
-                        data: '周二',
+                        date: '周二',
                         new: 10,
                         active: 500
                     },
                     {
-                        data: '周三',
+                        date: '周三',
                         new: 12,
                         active: 500
                     },
                     {
-                        data: '周四',
+                        date: '周四',
                         new: 60,
                         active: 800
                     },
                     {
-                        data: '周五',
+                        date: '周五',
                         new: 65,
                         active: 550
                     },
                     {
-                        data: '周六',
+                        date: '周六',
                         new: 65,
                         active: 550
                     },
                     {
-                        data: '周日',
+                        date: '周日',
                         new: 33,
                         active: 170
                     },
