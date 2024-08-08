@@ -33,7 +33,7 @@ export default {
     },
     computed: {
         ...mapState({
-            tags: state => state.tab.tabList
+            tags: state => state.tab.tabsList
         })
     }
 }
